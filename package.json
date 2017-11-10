@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "carbon.now.sh:toggle"
   },
-  "repository": "https://github.com/atom/carbon.now.sh",
+  "repository": "git@github.com:ericadamski/atom-carbon-now-sh.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

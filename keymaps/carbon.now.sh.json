@@ -1,0 +1,5 @@
+{
+  "atom-workspace": {
+    "shift-cmd-A": "carbon.now.sh:toggle"
+  }
+}

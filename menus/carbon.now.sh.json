@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle carbon.now.sh",
+        "command": "carbon.now.sh:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "carbon.now.sh",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "carbon.now.sh:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "name": "carbon.now.sh",
+  "name": "carbon-now-sh",
   "main": "./lib/carbon.now.sh",
   "version": "0.0.0",
   "description": "Atom package to open the current editor content in carbon.now.sh",
@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "carbon.now.sh:toggle"
   },
-  "repository": "git@github.com:ericadamski/atom-carbon-now-sh.git",
+  "repository": "https://github.com/ericadamski/atom-carbon-now-sh",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

@@ -2,7 +2,7 @@
 
 import { range } from 'ramda';
 
-import { CARBON_URL, getCarbonURL } from '../lib/carbon.now.sh';
+import { CARBON_URL, getCarbonURL } from '../lib/generate-url';
 
 describe('.getCarbonURL', () => {
     it('should be a function with arity 1', () => {
@@ -13,13 +13,13 @@ describe('.getCarbonURL', () => {
 
     it('should return the CARBON_URL concat\'d with the code', () => {
         // Arrange
-        const code = 'var test;';
+        const code = '  var test;  ';
 
         // Act
         const result = getCarbonURL(code);
 
         // Assert
-        expect(result).toEqual(`${CARBON_URL}${encodeURI(code)}`);
+        expect(result).toEqual(`${CARBON_URL}${encodeURI(code.trim())}`);
     });
 
     it('should return undefined if code is longer than 500 chars', () => {

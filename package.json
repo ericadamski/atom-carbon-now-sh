@@ -1,7 +1,7 @@
 {
   "name": "carbon-now-sh",
   "main": "./lib/carbon.now.sh",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Atom package to open the current editor content in carbon.now.sh",
   "keywords": [],
   "activationCommands": {
